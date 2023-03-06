@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F7F7;
+}
+
+.header {
+    background-color: #112D4E;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+form div {
+    box-sizing: border-box;
+}
+
+input {
+    padding: 10px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+select {
+    padding: 10px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.price {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.form {
+    height: 100%;
+    padding: 20px;
+    margin-left: 20px;
+    display: grid;
+    gap: 10px 10px;
+}
+
+.submit {
+    margin-top: 20px;
+    background-color: #3F72AF;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    width: 80px;
+    height: 40px;
+}
+
+.restaurant_list {
+    margin: 0px;
+    padding: 0px;
+}
+
+.foodimg {
+    height: 100%;
+    width: 100%;
+}
+
+form input {
+    font-size: 14px;
+}
+
+form select {
+    font-size: 14px;
+}
